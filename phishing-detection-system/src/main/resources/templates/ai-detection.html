@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+AI Detection
+</title>
+
+
+<link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+
+</head>
+
+
+<body class="bg-light">
+
+
+<div class="container mt-5">
+
+
+<div class="card shadow p-4">
+
+
+<h2 class="text-center">
+AI Detection Module
+</h2>
+
+
+<p class="text-center">
+Phishing Website Prediction System
+</p>
+
+
+
+<form action="/detect-url"
+method="post">
+
+
+<label>
+Enter Website URL
+</label>
+
+
+<input type="text"
+name="url"
+class="form-control"
+placeholder="Enter website URL"
+required>
+
+
+<br>
+
+
+<button class="btn btn-danger">
+
+AI Detect
+
+</button>
+
+
+</form>
+
+
+
+<br>
+
+
+
+<div th:if="${result}"
+class="alert alert-info">
+
+
+Website:
+
+<b th:text="${result.websiteUrl}">
+</b>
+
+
+<br>
+
+
+Risk Score:
+
+<b th:text="${result.riskScore}">
+</b>
+
+
+<br>
+
+
+Prediction:
+
+<b th:text="${result.prediction}">
+</b>
+
+
+
+</div>
+
+
+
+<a href="/dashboard"
+class="btn btn-dark">
+
+Back Dashboard
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
