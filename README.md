@@ -4,7 +4,7 @@
 
 The AI-Based Phishing Website Detection and Security Alert System is a web application developed using Java Spring Boot to identify phishing websites and protect users from cyber threats. The system analyzes URLs, detects malicious websites using AI-based techniques, stores detection history, and generates security alerts for administrators.
 
----
+
 
 ## Technologies Used
 
@@ -19,7 +19,7 @@ The AI-Based Phishing Website Detection and Security Alert System is a web appli
 - JavaScript
 - Bootstrap
 
----
+
 
 ## Features
 
@@ -36,7 +36,7 @@ The AI-Based Phishing Website Detection and Security Alert System is a web appli
 - Report Generation
 - Profile Management
 
----
+
 
 ## Modules
 
@@ -63,7 +63,7 @@ The AI-Based Phishing Website Detection and Security Alert System is a web appli
 - Risk Prediction
 - Alert Generation
 
----
+
 
 ## Database
 
@@ -78,7 +78,7 @@ Tables Used:
 - Detection Reports
 - Monitoring Logs
 
----
+
 
 # Project Screenshots
 
@@ -86,49 +86,48 @@ Tables Used:
 
 ![Admin Dashboard](admindashboard.png)
 
----
+
 
 ## Admin Login
 
 ![Admin Login](adminlogin.png)
 
----
+
 
 ## AI Detection Module
 
 ![AI Detection](aidetection.png)
 
----
+
 
 ## AI Phishing Reports
 
 ![AI Phishing Reports](aiphishingreports.png)
 
----
+
 
 ## URL Analysis Module
 
 ![URL Analysis](urlanalysismodule.png)
 
----
+
 
 ## Security Alert
 
 ![Security Alert](securityalert.png)
 
----
 
 ## Website Monitoring
 
 ![Website Monitoring](websitemonitoring.png)
 
----
+
 
 ## View Security Alerts
 
 ![View Security Alerts](viewsecurityalert.png)
 
----
+
 
 ## View Users
 
@@ -140,31 +139,31 @@ Tables Used:
 
 ![User Dashboard](userdashboard.png)
 
----
+
 
 ## User Registration
 
 ![User Registration](userregistration.png)
 
----
+
 
 ## User Profile
 
 ![User Profile](userprofile.png)
 
----
+
 
 ## Phishing Report
 
-![Phishing Report](phishingreport.png)
+![Phishing Report](phisingreport.png)
 
----
+
 
 ## Excel Report
 
 ![Excel Report](excelsheet.png)
 
----
+
 
 ## Future Enhancements
 
@@ -176,7 +175,7 @@ Tables Used:
 - Cloud Deployment
 - Threat Intelligence Integration
 
----
+
 
 ## Author
 
